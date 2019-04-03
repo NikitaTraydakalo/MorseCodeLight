@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400017EC2253CC610032B475 /* c6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400017EB2253CC610032B475 /* c6.mp3 */; };
 		40FC68CC224D350B007CDAD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FC68CB224D350B007CDAD4 /* AppDelegate.swift */; };
 		40FC68CE224D350B007CDAD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FC68CD224D350B007CDAD4 /* ViewController.swift */; };
 		40FC68D1224D350B007CDAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FC68CF224D350B007CDAD4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400017EB2253CC610032B475 /* c6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c6.mp3; sourceTree = "<group>"; };
 		40FC68C8224D350B007CDAD4 /* MorseCodeLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseCodeLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FC68CB224D350B007CDAD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40FC68CD224D350B007CDAD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +37,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40C1AE7B2253D84100EB9543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		40FC68BF224D350B007CDAD4 = {
 			isa = PBXGroup;
 			children = (
 				40FC68CA224D350B007CDAD4 /* MorseCodeLight */,
 				40FC68C9224D350B007CDAD4 /* Products */,
+				40C1AE7B2253D84100EB9543 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				40FC68CB224D350B007CDAD4 /* AppDelegate.swift */,
+				400017EB2253CC610032B475 /* c6.mp3 */,
 				40FC68CD224D350B007CDAD4 /* ViewController.swift */,
 				40FC68CF224D350B007CDAD4 /* Main.storyboard */,
 				40FC68D2224D350C007CDAD4 /* Assets.xcassets */,
@@ -96,6 +107,11 @@
 				TargetAttributes = {
 					40FC68C7224D350B007CDAD4 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40FC68D6224D350C007CDAD4 /* LaunchScreen.storyboard in Resources */,
+				400017EC2253CC610032B475 /* c6.mp3 in Resources */,
 				40FC68D3224D350C007CDAD4 /* Assets.xcassets in Resources */,
 				40FC68D1224D350B007CDAD4 /* Main.storyboard in Resources */,
 			);
